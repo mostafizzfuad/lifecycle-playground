@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LifecycleLogger from "./components/LifecycleLogger"; // আমরা একটু পরেই এটি তৈরি করবো
+import LifecycleLogger from "./components/LifecycleLoggerClass";
 
 const App = () => {
 	const [showLogger, setShowLogger] = useState(true);
